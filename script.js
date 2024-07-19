@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', formSubmit);
+
+function formSubmit() {
 	const form = document.getElementById('registration-form');
 	const feedbackDiv = document.getElementById('form-feedback');
 
@@ -41,4 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
 			feedbackDiv.style.color = '#dc3545';
 		}
 	});
-});
+}
